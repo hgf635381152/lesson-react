@@ -61,11 +61,12 @@ class SortList extends Component {
               <li>京东超市</li>
               <li>推荐分类</li>
               <li>京东超市</li>
-
             </ul>
           </div>
           <div className="right-List">
-            right
+            <div className="right-goods">
+              right
+            </div>
           </div>
         </div>
       </div>
