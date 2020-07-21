@@ -34,4 +34,9 @@
   align-items: center;
   justify-content: center;
   font-size: 14px;
+  /* background-color:white */
+}
+.list-li {
+  width: 91px;
+  float: left;
 }

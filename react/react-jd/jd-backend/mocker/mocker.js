@@ -1,3 +1,3 @@
 module.exports = {
-  'GET /rest/cities': require('./rest/cities.json')
+  'GET /sort/recommend': require('./sort/recommend.json')
 }

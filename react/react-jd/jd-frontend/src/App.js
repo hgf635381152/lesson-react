@@ -34,7 +34,7 @@ function App() {
             <img src="https://img11.360buyimg.com/jdphoto/s130x100_jfs/t1/81741/30/12345/4140/5d9c4b13E726f0a1e/82c582e7c375e4b3.png" alt="" />
           </div>
         </Link></div>
-        <div className="footer_sort"><Link to="/sort/" onClick={handleClickSort}>
+        <div className="footer_sort"><Link to="/sort/recommend" onClick={handleClickSort}>
           <div>
             <img src="https://img11.360buyimg.com/jdphoto/s130x100_jfs/t1/56507/6/12787/3168/5d9c4b12Ef363dd8d/4af32f42575509d8.png" alt="" />
           </div>
