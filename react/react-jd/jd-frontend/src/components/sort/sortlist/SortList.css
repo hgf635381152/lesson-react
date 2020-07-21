@@ -11,15 +11,16 @@
 }
 .right-List{
   width: 289px;
-  height: 807px;
+  height: 574px;
   margin-left: 86px;
 }
 .right-goods{
   width: 275px;
-  height: 778px;
+  height: 555px;
   padding-top: 19px;
   padding-left: 7px;
   padding-right: 7px;
+  overflow: scroll;
 }
 ::-webkit-scrollbar {
   /*隐藏滚轮*/
