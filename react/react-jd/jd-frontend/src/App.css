@@ -5,6 +5,7 @@ html,body{
 }
 a{
   text-decoration:none;
+  color: #000;
 }
 @font-face {
   font-family: 'iconfont';  /* project id 1951911 */

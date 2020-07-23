@@ -1,0 +1,126 @@
+{
+  "supermarket": [
+    {
+      "title": "个护清洁",
+      "goods": [
+        {
+          "name": "纸品湿巾",
+          "src": "//img20.360buyimg.com/focus/s140x140_jfs/t13684/103/181232450/2817/1bd36d3d/5a057f17Nc76b625d.jpg"
+        },
+        {
+          "name": "衣物清洁",
+          "src": "//img10.360buyimg.com/focus/s140x140_jfs/t12136/32/190594635/3030/39a660be/5a057ef3N4b20576c.jpg"
+        },
+        {
+          "name": "洗发护发",
+          "src": "//img12.360buyimg.com/focus/s140x140_jfs/t12046/51/196865136/2542/dd0cb394/5a057eeaNe24e73fb.jpg"
+        },
+        {
+          "name": "家庭清洁",
+          "src": "//img30.360buyimg.com/focus/s140x140_jfs/t11257/264/1649145508/5426/5f7c71bb/5a057ee0N0dc59d02.jpg"
+        },
+        {
+          "name": "口腔护理",
+          "src": "//img12.360buyimg.com/focus/s140x140_jfs/t11596/91/1612970162/2450/608966a4/5a057efdN543407fa.jpg"
+        },
+        {
+          "name": "一次性用品",
+          "src": "//img11.360buyimg.com/focus/s140x140_jfs/t7282/295/4716826036/4665/da4c4dd2/5a057ed7N507ef94b.jpg"
+        },
+        {
+          "name": "清洁工具",
+          "src": "//img10.360buyimg.com/focus/s140x140_jfs/t13519/304/184655750/2450/608966a4/5a057eaaNf62e9b4f.jpg"
+        },
+        {
+          "name": "电动牙刷",
+          "src": "//img30.360buyimg.com/focus/s140x140_jfs/t12019/118/199015154/1066/8a0a6d18/5a057eb7N89a5a55a.jpg"
+        },
+        {
+          "name": "女性护理",
+          "src": "//img30.360buyimg.com/focus/s140x140_jfs/t13576/83/193136329/1665/b2075f8d/5a057f0bNb48aef37.jpg"
+        },
+        {
+          "name": "驱虫用品",
+          "src": "//img11.360buyimg.com/focus/s140x140_jfs/t12973/327/191750501/2504/e8a0bab4/5a057ecdN8f5ef29b.jpg"
+        },
+        {
+          "name": "皮具护理",
+          "src": "//img14.360buyimg.com/focus/s140x140_jfs/t7501/107/4530131676/3235/ada990b/5a057ebfN8eee8a15.jpg"
+        }
+      ]
+    },
+    {
+      "title": "休闲零食",
+      "goods": [{
+          "name": "休闲零食",
+          "src": "//img30.360buyimg.com/focus/s140x140_jfs/t11431/77/1274462175/4200/a52ec5cc/59ffd6e2N287c043d.jpg"
+        },
+        {
+          "name": "坚果炒货",
+          "src": "//img20.360buyimg.com/focus/s140x140_jfs/t11461/336/1331406760/15773/60c49ab7/59ffd6d0Ncb29412d.png"
+        },
+        {
+          "name": "糖巧",
+          "src": "//img12.360buyimg.com/focus/s140x140_jfs/t11890/195/1248876103/12648/403ce46a/59ffd6b9Nc88344b5.png"
+        },
+        {
+          "name": "饼干蛋糕",
+          "src": "//img14.360buyimg.com/focus/s140x140_jfs/t11500/115/1293305736/3233/7bb2056a/59ffd6ccNb9875d1d.jpg"
+        },
+        {
+          "name": "肉干肉脯",
+          "src": "//img11.360buyimg.com/focus/s140x140_jfs/t11749/28/952474396/2583/64b85652/59fc31b6N4feb7d84.jpg"
+        },
+        {
+          "name": "蜜饯果干",
+          "src": "//img11.360buyimg.com/focus/s140x140_jfs/t11275/128/1281544342/3341/64f437e/59ffd6fbN047718c7.jpg"
+        },
+        {
+          "name": "无糖食品",
+          "src": "//img14.360buyimg.com/focus/s140x140_jfs/t7570/153/3996735769/2714/a58d5793/59ffd6ffN95ab2f9b.jpg"
+        }
+      ]
+    },
+    {
+      "title": "京东生鲜",
+      "goods": [
+        {
+          "name": "新鲜水果",
+          "src": "//img14.360buyimg.com/focus/s140x140_jfs/t13114/249/194468242/12810/9ec2ff54/5a055de1N8c4e9dea.png"
+        },
+        {
+          "name": "大闸蟹",
+          "src": "//img13.360buyimg.com/focus/s140x140_jfs/t11302/13/1658731901/14577/364f5460/5a055f40N62903c0f.png"
+        },
+        {
+          "name": "精选肉类",
+          "src": "//img11.360buyimg.com/focus/s140x140_jfs/t14107/235/204148575/13630/1064e42a/5a055f22N6268fe11.jpg"
+        },
+        {
+          "name": "新鲜蔬菜",
+          "src": "//img10.360buyimg.com/focus/s140x140_jfs/t11158/348/1605392160/15862/b5b31d79/5a055f30N5c860a4f.png"
+        },
+        {
+          "name": "蛋类",
+          "src": "//img30.360buyimg.com/focus/s140x140_jfs/t11731/254/1619959296/10831/7bdc8c60/5a055f0eNbd78b0ca.jpg"
+        },
+        {
+          "name": "饮品甜品",
+          "src": "//img13.360buyimg.com/focus/s140x140_jfs/t1/101293/13/13869/3952/5e5f4b50E072e10a9/fe1988a182919b16.jpg"
+        },
+        {
+          "name": "海鲜水产",
+          "src": "//img13.360buyimg.com/focus/s140x140_jfs/t13762/235/168390137/17820/6b9c2819/5a055de9N801bbdd8.png"
+        },
+        {
+          "name": "冰冻食品",
+          "src": "//img11.360buyimg.com/focus/s140x140_jfs/t11803/102/1641100530/3311/dfde2aeb/5a055f39Nec72b58a.jpg"
+        },
+        {
+          "name": "乳品冷饮",
+          "src": "//img30.360buyimg.com/focus/s140x140_jfs/t1/105957/12/13828/7834/5e5f4b63E7c02459d/063de70a42863bcd.png"
+        }
+      ]
+    }
+  ]
+}

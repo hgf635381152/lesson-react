@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route, NavLink } from 'react-router-dom';
 import './SortList.css';
 import Recommend from './Recommend';
 import Supermarket from './Supermarket'
@@ -13,12 +13,12 @@ class SortList extends Component {
   render() {
     return (
       <div>
-        <div className="SortList">
-          <div className="left-List">
+        <div className="sort-SortList">
+          <div className="sort-left-List">
             <ul>
-              <li><Link to="/sort/recommend">推荐分类</Link></li>
-              <li><Link to="/sort/supermarket">京东超市</Link></li>
-              <li><Link to="/sort/international">国际名牌</Link></li>
+              <li><NavLink to="/sort/recommend" activeClassName="selected">推荐分类</NavLink></li>
+              <li><NavLink to="/sort/supermarket" activeClassName="selected">京东超市</NavLink></li>
+              <li><NavLink to="/sort/international" activeClassName="selected">家具家装</NavLink></li>
               <li>奢侈品</li>
               <li>京东国际</li>
               <li>唯品会</li>
@@ -30,45 +30,11 @@ class SortList extends Component {
               <li>内衣配饰</li>
               <li>箱包手袋</li>
               <li>美妆护肤</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
-              <li>推荐分类</li>
-              <li>京东超市</li>
             </ul>
           </div>
-          <div className="right-List">
-            <div className="right-goods">
+          <div className="sort-right-List">
+            <div className="sort-right-goods">
+              <Route path="/sort" exact component={Recommend} />
               <Route path="/sort/recommend" exact component={Recommend} />
               <Route path="/sort/supermarket" exact component={Supermarket} />  
               <Route path="/sort/international" exact component={International} />

@@ -1,34 +1,28 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react'
 
 
-class Recommend extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { 
-      list: [],
-      title: ''
-    };
-  }
-  render() {
+function Recommend(props) {
+  const [ list, setlist ] = useState([]);
+  const [ title, settitle ] = useState('')
+  useEffect(() => {
     fetch('http://localhost/sort/recommend')
       .then(data => data.json())
       .then(data => {
-        this.setState({
-          list: data.recommend,
-          title: data.title
-        })
+        setlist(data.recommend)
+        settitle(data.title)
         // console.log(data)
         // console.log(this.state.list)
       })
+  }, [])
     return (
-      <div>
-        <h2 >{this.state.title}</h2>
-        <ul>
+      <div className="sort-goods-list">
+        <h2 >{title}</h2>
+        <ul >
           {
-            this.state.list.map((item, index) => {
+            list.map((item, index) => {
               return (
-                <li className="list-li" key={index}>
-                  <img src={item.src} width={75} height={75} alt="" />
+                <li key={index}>
+                  <img  src={item.src} width={75} height={75} alt="" />
                   <span>{item.name}</span>
                 </li>
               )
@@ -37,7 +31,6 @@ class Recommend extends Component {
         </ul>
       </div>
     );
-  }
 }
 
 export default Recommend;
