@@ -3,11 +3,23 @@
 // 二级路由
 // 嵌套
 
-import React from 'react'
+import React, { lazy, Suspense } from 'react'  // react的优化项之一: 路由懒加载
 import { Redirect } from 'react-router-dom'
-import Recommend from '../application/Recommend'
+import SingersComponent from '../application/Singer'
 import BlankLayout from '../layouts/BlankLayout'
 import HomeLayout from '../layouts/HomeLayout'
+// import Recommend from '../application/Recommend'
+const RecommendComponent = lazy(() => import("../application/Recommend/"))
+
+const SuspenseComponent = Component => props => {
+  return (
+    <Suspense fallback={null}>
+      <Component {...props}>
+
+      </Component>
+    </Suspense>
+  )
+}
 
 export default [{
   component: BlankLayout,
@@ -23,12 +35,13 @@ export default [{
         },
         {
           path: "/recommend",
-          component: Recommend
+          component: SuspenseComponent(RecommendComponent)
         },
-        // {
-        //   path: "/singers",
-        //   component: SingersComponent
-        // },
+        {
+          path: "/singers",
+          component: SuspenseComponent(SingersComponent),
+          key: "singers"
+        },
         // {
         //   path: "/rank",
         //   component: RankComponent
