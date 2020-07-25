@@ -1,0 +1,110 @@
+{
+  "shoplist": [
+    {
+      "shopimg": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1174326865,3849779316&fm=26&gp=0.jpg",
+      "shopname": "七彩虹京东自营旗舰店",
+      "goods": [
+        {
+          "goodsimg": "https://img13.360buyimg.com/n7/jfs/t1/50420/7/11841/105962/5d89cb09Ea550f387/22171ed6a4bd8d58.jpg",
+          "content": "七彩虹(Colorful) 256GB SSd固态硬盘 M.2接口(NVMe协议) CN600系列",
+          "newprice": "￥249",
+          "oldprice": "￥329"
+        },
+        {
+          "goodsimg": "https://img12.360buyimg.com/n7/jfs/t1/50077/20/4870/45346/5d299172Eeb513a49/359d18426170f3df.jpg",
+          "content": "七彩虹(Colorful) DDR4 2666 8GB 台式机内存 战斧系列",
+          "newprice": "￥179",
+          "oldprice": "￥189"
+        },
+        {
+          "goodsimg": "https://img12.360buyimg.com/n7/jfs/t1/136136/40/4119/106822/5f08194cEf0e67d20/38c90f9e74868688.jpg",
+          "content": "七彩虹(Colorful) iGame GeForce GTX 1660 AD Special OC 6G 1860MHz/8Gbps GDDR5 游戏电竞显卡",
+          "newprice": "￥1499",
+          "oldprice": "￥1799"
+        },
+        {
+          "goodsimg": "https://img14.360buyimg.com/n7/jfs/t1/93129/13/1067/197966/5db92090E97f8f9ea/465830a5ee624d0a.jpg",
+          "content": "七彩虹(Colorful) iGame Sigma M500 英特尔9代i7 设计师游戏台式电脑",
+          "newprice": "￥5999",
+          "oldprice": "￥6699"
+        },
+        {
+          "goodsimg": "https://img14.360buyimg.com/n7/jfs/t1/128373/7/4085/60017/5ed9e5d7E13596d5f/e441f736d2f7f208.jpg",
+          "content": "七彩虹(Colorful) iGame 幻彩灯效台式机游戏显卡支架",
+          "newprice": "￥149",
+          "oldprice": "￥159"
+        }
+      ]
+    },
+    {
+      "shopimg": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4020783108,1723866256&fm=26&gp=0.jpg",
+      "shopname": "荣耀京东自营旗舰店",
+      "goods": [{
+          "goodsimg": "https://img12.360buyimg.com/n7/jfs/t1/131005/1/4991/38674/5f154436Eb2a2a364/b881f5a46f684732.jpg",
+          "content": "荣耀X3 Pro 双千兆路由器 1300M双频wifi无线家用穿墙",
+          "newprice": "￥125",
+          "oldprice": "￥129"
+        },
+        {
+          "goodsimg": "https://img13.360buyimg.com/n7/jfs/t1/110841/17/4637/519790/5e9e57c6Ed206c0d4/801c8c4efbde4b97.png",
+          "content": "荣耀Play4 5G双模 6400万锐力四摄 4300mAh大电池 VC液冷散热 8GB+128GB 冰岛幻境",
+          "newprice": "￥1889",
+          "oldprice": "￥1999"
+        },
+        {
+          "goodsimg": "https://img11.360buyimg.com/n7/jfs/t1/127385/23/4588/75816/5ee1d0f3Edeb74cc8/e0698c1bd3c73bab.jpg",
+          "content": "荣耀Play4 全网通6GB+64GB大内存 蓝水翡翠 4000Ah大电池",
+          "newprice": "￥989",
+          "oldprice": "￥1099"
+        },
+        {
+          "goodsimg": "https://img14.360buyimg.com/n7/jfs/t1/82216/9/9258/126647/5d6fba71E844d6e2d/1e3f0cf8293cc008.jpg",
+          "content": "荣耀Play3 6.39英寸魅眼全视屏 4000mAh大电池 麒麟710F自研芯片",
+          "newprice": "￥989",
+          "oldprice": "￥1099"
+        },
+        {
+          "goodsimg": "https://img13.360buyimg.com/n7/jfs/t1/99730/1/154/477811/5da833a6E814e6676/79c4d1ea436ed9ea.jpg",
+          "content": "荣耀20青春版 AMOLED 屏幕指纹 4000Amh大电池 20W快充 ",
+          "newprice": "￥1089",
+          "oldprice": "￥1499"
+        }
+      ]
+    },
+    {
+      "shopimg": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=921490225,3654467561&fm=26&gp=0.jpg",
+      "shopname": "西部数码IT专营店",
+      "goods": [{
+          "goodsimg": "https://img12.360buyimg.com/n7/jfs/t1/88604/10/16165/94687/5e79f145Ef2534e9e/324109eb0d16d40d.jpg",
+          "content": "西部数据 (WD) 西数蓝盘 1TB 7200转64MB 台式机械电脑硬盘 SATA3 6GB",
+          "newprice": "￥289",
+          "oldprice": "￥305"
+        },
+        {
+          "goodsimg": "https://img10.360buyimg.com/n7/jfs/t25153/279/1339525326/278991/d07040a9/5bae47f6N699b5ca7.jpg",
+          "content": "英特尔 (Intel) 760P/660P M.2 2280 NVME 笔记本台式机固态硬盘",
+          "newprice": "￥479",
+          "oldprice": "￥629"
+        },
+        {
+          "goodsimg": "https://img10.360buyimg.com/n7/jfs/t1/108301/31/10204/92786/5e79e09fE41a98630/e8fcbb0e61dd557d.jpg",
+          "content": "西部数据 (WD) 西数蓝盘 1TB 2.5 SATA 3.0笔记本机械硬盘 WD10SPZX 7mm",
+          "newprice": "￥295",
+          "oldprice": "￥305"
+        },
+        {
+          "goodsimg": "https://img11.360buyimg.com/n7/jfs/t1/101806/16/16221/100222/5e79eda2Ed8e118ef/3db385f7e295eb62.jpg",
+          "content": "西部数据 (WD) 西数蓝盘 2TB 256M SATA6Gb/s 台式机械电脑硬盘WD20EZAZ",
+          "newprice": "￥359",
+          "oldprice": "￥369"
+        },
+        {
+          "goodsimg": "https://img12.360buyimg.com/n7/jfs/t1/93080/4/8239/94074/5e031f29E735cb4b5/87a9320b99ab2af1.jpg",
+          "content": "希捷(Seagate) ST迈拓/酷鱼/酷玩 SATA/NVME 2280固态硬盘 SSD 希捷迈拓z1系列",
+          "newprice": "￥204",
+          "oldprice": "￥224"
+        }
+      ]
+    }
+  ]
+}

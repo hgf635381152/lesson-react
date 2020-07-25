@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Search.css';
 import LIMG from './扫一扫.png';
 import RIMG from './消息.png';
 import limg from './搜索.png';
 import rimg from './相机.png';
 
-class Search extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {  };
-  }
-  render() {
+function Search (){
+
     return (
       <div>
         <div className="search-input">
@@ -34,7 +30,6 @@ class Search extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Search;

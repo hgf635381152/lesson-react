@@ -1,16 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import './SortList.css';
 import Recommend from './Recommend';
 import Supermarket from './Supermarket'
 import International from './International'
 
-class SortList extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {  };
-  }
-  render() {
+function SortList() {
     return (
       <div>
         <div className="sort-SortList">
@@ -43,7 +38,6 @@ class SortList extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default SortList;

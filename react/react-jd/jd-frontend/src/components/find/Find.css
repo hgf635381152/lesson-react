@@ -1,0 +1,211 @@
+.find {
+  width: 100%;
+  height: 620px;
+  position: relative;
+}
+.find-bg {
+  width: 100%;
+  height: 220px;
+  background: linear-gradient(red, #F0FFFF)
+}
+
+.find-bg-top {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  top: 15px;
+  /* margin-top: 20px; */
+}
+.find-bg .find-bg-top .iconfont1 {
+  color: white;
+  font-size: 29px;
+  position: absolute;
+  left: 10px;
+  top: 3px;
+}
+.find-bg .find-bg-top .iconfont2 {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  right: 70px;
+  top: 3px;
+}
+.find-bg .find-bg-top .iconfont3 {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  right: 20px;
+  top: 3px;
+}
+.find-bg-top-title {
+  font-family: STHupo;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  right: 163px;
+  top: 6px;
+}
+.find-bg-bar {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.find-bg-bar-content{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.find-bg-bar-content span {
+  font-size: 15px;
+  color: white;
+}
+
+.find-bg-bar-content .bar-span-1 {
+  font-weight: 700;
+}
+
+.find-list {
+  position: relative;
+  transform: translateY(-100px) ;
+  margin-left: 3%;
+  width: 94%;
+  height: 500px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+/* .box-active {
+  position: fixed;
+  top: -120px;
+} */
+.find-list-shop{
+  position: relative;
+  width: 100%;
+  height: 210px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.find-list-shop-top {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+.find-list-shop-top-span {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-size: 14px;
+}
+.find-list-shop-top-button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-list-shop-top img {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  border-radius: 50%;
+}
+.find-list-shop-top-button .iconfont4 {
+  color: white;
+  font-size: 14px;
+}
+.find-list-shop-top-button span {
+  color: white;
+}
+
+.find-list-shop-goods {
+  position: relative;
+  width: 100%;
+  height: 170px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.find-list-shop-good {
+  position: relative;
+  width: 30%;
+  height: 170px;
+  left: 5px;
+  margin: 5px;
+  white-space: nowrap;
+  display: inline-block;
+}
+.find-list-shop-good img {
+  display: block;
+  border-radius: 8px;
+  border: silver 1px solid;
+}
+.find-list-shop-good .span-1 {
+  width: 100%;
+  height: 20px;
+  display: block;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.find-list-shop-good .span-2{
+  height: 20px;
+  display: block;
+  color: red;
+  font-weight: 700;
+  font-size: 14px;
+}
+.find-list-shop-good .span-3 {
+  height: 20px;
+  display: block;
+  color: rgb(163, 158, 158);
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.find-list-shop-more {
+  position: relative;
+  width: 10%;
+  height: 105px;
+  left: 5px;
+  bottom: 50px;
+  margin: 5px;
+  white-space: nowrap;
+  display: inline-block;
+  background-color: rgb(245, 226, 226);
+  border: rgb(241, 167, 167) 1px solid;
+  border-radius: 10px;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  color: red;
+  font-size: 13px;
+  /* justify-content: center;
+  text-align: center;
+  align-items: center; */
+}
+.find-list-shop-more span {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+.find-list-shop-more .iconfont5 {
+  position: absolute;
+  left: 11px;
+  bottom: 16px;
+  font-size: 13px;
+} 
+
+::-webkit-scrollbar {
+  /*隐藏滚轮*/
+  display: none;
+}
