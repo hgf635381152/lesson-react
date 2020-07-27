@@ -1,10 +1,12 @@
 import React from 'react';
+import Fyrecommend from './fyrecommend/Fyrecomend'
+
 function Index(){
     return ( 
       <div>
-        首页
+        <Fyrecommend />
       </div>
-     );
+    );
 }
- 
+
 export default Index;
