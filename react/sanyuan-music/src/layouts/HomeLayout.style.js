@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import style from "../assets/global-style";
 // 专门解决切页面, 不用过于组件化的语法
 
 export const Top = styled.div`
@@ -6,7 +7,7 @@ export const Top = styled.div`
   flex-direction: row;
   justify-content: space-between;
   padding: 5px 10px;
-  background: #d44439;
+  background: ${style["theme-color"]};
   & > span {
     line-height: 40px;
     color: #f1f1f1;
@@ -21,7 +22,7 @@ export const Tab = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background: #d44439;
+  background: ${style["theme-color"]};
   a {
     flex: 1;
     padding: 2px 0;
@@ -43,6 +44,5 @@ export const TabItem = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* text-align: center; */
   justify-content: center;
 `

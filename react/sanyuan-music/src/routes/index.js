@@ -5,18 +5,18 @@
 
 import React, { lazy, Suspense } from 'react'  // react的优化项之一: 路由懒加载
 import { Redirect } from 'react-router-dom'
-import SingersComponent from '../application/Singer'
 import BlankLayout from '../layouts/BlankLayout'
 import HomeLayout from '../layouts/HomeLayout'
 // import Recommend from '../application/Recommend'
 const RecommendComponent = lazy(() => import("../application/Recommend/"))
+const SingersComponent = lazy(() => import("../application/Singers/"));
+const SingerComponent = lazy(() => import("./../application/Singer/"));
+
 
 const SuspenseComponent = Component => props => {
   return (
     <Suspense fallback={null}>
-      <Component {...props}>
-
-      </Component>
+      <Component {...props}></Component>
     </Suspense>
   )
 }
@@ -40,7 +40,13 @@ export default [{
         {
           path: "/singers",
           component: SuspenseComponent(SingersComponent),
-          key: "singers"
+          key: "singers",
+          routes: [
+            {
+              path: "/singers/:id",
+              component: SuspenseComponent(SingerComponent)
+            }
+          ]
         },
         // {
         //   path: "/rank",
