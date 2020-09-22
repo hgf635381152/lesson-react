@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.bt {
+			background-color: black;
+			color: white;
+			border: 1px solid;
+			height: 30px;
+		}
+
+		.home {
+			position: relative;
+			height: 100vh;
+		}
+
+		.navbar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 60px;
+			z-index: 666;
+			background-color: #F0F8FF;
+		}
+
+		.top {
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			top: 60px;
+			height: 120px;
+			width: 100%;
+			background-color: green;
+		}
+
+		.left {
+			position: absolute;
+			top: 180px;
+			left: 0;
+			width: 20%;
+			height: 80%;
+			background-color: hotpink;
+		}
+
+		.middle {
+			position: absolute;
+			top: 180px;
+			left: 20%;
+			right: 20%;
+			height: 80%;
+			width: 60%;
+			background-color: khaki;
+		}
+
+		.right {
+			position: absolute;
+			top: 180px;
+			right: 0;
+			width: 20%;
+			height: 80%;
+			background-color: hotpink;
+		}
+
+		.title {
+			position: absolute;
+			background-color: lawngreen;
+			height: 60px;
+			width: 30%;
+		}
+
+		.menu {
+			position: absolute;
+			height: 60px;
+			right: 0;
+			width: 70%;
+			margin: 0;
+		}
+
+		.menu ul {
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+		}
+
+		.menu ul li {
+			float: right;;
+			position: relative;
+			padding: 15px;
+			margin: 0;
+			
+		}
+
+		.menu ul li a,
+		.menu ul li a:visited {
+			display: block;
+			text-align: center;
+			text-decoration: none;
+			width: 100px;
+			color: whitesmoke;
+			background: #3399FF;
+			line-height: 30px;
+			font-size: 20px;
+			border-radius: 5px;
+		}
+
+		.menu ul li:hover a {
+			color: wheat;
+			background: #6495ED;
+		}
+
+		.search {
+			width: 60%;
+			display: flex;
+			justify-content: center;
+		}
+		.search-input {
+			width: 50%;
+			height: 30px;
+			margin-right: 5px;
+		}
+		.search > button {
+			display: inline-block;
+			width: 80px;
+			font-weight: 700;
+			border-radius: 5px;
+			background-color: #3399FF;
+			color: white;
+			border: white 0px solid;
+		}
+		.article1 {
+			position: absolute;
+			height: 25%;
+			width: 100%;
+			background-color: rgb(212, 228, 70);
+		}
+
+		.article2 {
+			position: absolute;
+			top: 25%;
+			height: 25%;
+			width: 100%;
+			background-color: rgb(43, 170, 81);
+		}
+
+		.article3 {
+			position: absolute;
+			top: 50%;
+			height: 25%;
+			width: 100%;
+			background-color: rgb(98, 37, 197);
+		}
+
+		.publish {
+			position: absolute;
+			top: 75%;
+			height: 25%;
+			width: 100%;
+			padding: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="home">
+		<div class="navbar">
+			<div class="title"></div>
+			<div class="menu">
+				<ul>
+					<li><a>关于我们</a></li>
+					<li><a>我的信息</a></li>
+					<li><a>账号登录</a></li>
+					<li><a>账号注册</a></li>
+					<li><a>论坛主页</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="top">
+			<div class="search">
+				<input type="text" class="search-input" placeholder="请输入搜索内容">
+				<button>搜 索</button>
+			</div>
+		</div>
+		<div class="left"></div>
+		<div class="middle">
+			<div class="article1">
+				帖子1
+			</div>
+			<div class="article2">
+				帖子2
+			</div>
+			<div class="article3">
+				帖子3
+			</div>
+			<div class="publish">
+				<textarea rows="5" cols="110"></textarea>
+				<input type="button" value="发布">
+			</div>
+		</div>
+		<div class="right"></div>
+	</div>
+
+
+	<button class="bt">search</button>
+</body>
+
+</html>

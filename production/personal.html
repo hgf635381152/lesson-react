@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人主页</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .home {
+      position: relative;
+      height: 100vh;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      z-index: 666;
+      background-color: #F0F8FF;
+    }
+
+    .top {
+      position: absolute;
+      top: 60px;
+      height: 120px;
+      margin-left: 15%;
+      width: 70%;
+      background-color: green;
+    }
+
+    .left {
+      position: absolute;
+      top: 180px;
+      left: 0;
+      width: 15%;
+      height: 80%;
+      background-color: hotpink;
+    }
+
+    .middle {
+      position: absolute;
+      top: 180px;
+      left: 15%;
+      right: 15%;
+      height: 80%;
+      width: 70%;
+      background-color: khaki;
+    }
+
+    .right {
+      position: absolute;
+      top: 180px;
+      right: 0;
+      width: 15%;
+      height: 80%;
+      background-color: hotpink;
+    }
+
+    .title {
+      position: absolute;
+      background-color: lawngreen;
+      height: 60px;
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .menu {
+      position: absolute;
+      height: 60px;
+      right: 0;
+      width: 70%;
+      margin: 0;
+    }
+
+    .menu ul {
+      list-style-type: none;
+    }
+
+    .menu ul li {
+      float: right;
+      position: relative;
+      padding: 15px;
+    }
+
+    .menu ul li a,
+    .menu ul li a:visited {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      width: 100px;
+      color: whitesmoke;
+      background: #3399FF;
+      line-height: 30px;
+      font-size: 20px;
+      border-radius: 5px;
+    }
+
+    .menu ul li:hover a {
+      color: wheat;
+      background: #6495ED;
+    }
+    .article {
+      position: absolute;
+      height: 25%;
+      width: 100%;
+      background-color: rgb(212, 228, 70);
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="home">
+    <div class="navbar">
+      <div class="title">云论坛-Cloud Forum</div>
+      <div class="menu">
+        <ul>
+          <li><a>关于我们</a></li>
+          <li><a>我的信息</a></li>
+          <li><a>账号登录</a></li>
+          <li><a>账号注册</a></li>
+          <li><a>论坛主页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="top">
+      
+    </div>
+    <div class="left"></div>
+    <div class="middle">
+      <div class="article">
+        帖子1
+      </div>
+    </div>
+    <div class="right"></div>
+  </div>
+</body>
+
+</html>
